@@ -1,14 +1,19 @@
 import './App.css';
 import Navbar from './components/Navbar';
-
+import Intro from './components/Intro';
+import Gallery from './components/Gallery.jsx';
+import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <Navbar> </Navbar>
-      </header>
-    </div>
+    <ChakraProvider>
+      <div className='App'>
+        <Navbar> </Navbar>
+        <Intro> </Intro>
+        <Gallery> </Gallery>
+
+      </div>
+    </ChakraProvider>
   );
 }
 
