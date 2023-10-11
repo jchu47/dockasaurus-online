@@ -1,20 +1,37 @@
 import React from 'react';
+import first from '../assets/first-feature.jpeg';
+import second from '../assets/second-feature.jpeg';
+import third from '../assets/third-feature.jpeg';
 
 function Gallery() {
   return (
     <div class='gallery'>
-      <h1>Features</h1>
+      {/* <h1>Features</h1> */}
       <div class='feature-row'>
-        <h2>First Feature Goes Here</h2>
-        <img src='#' alt='First Image on the right'></img>
+        <h2 class='feature-desc'>
+          📉 Chart Visualizations sit atop the dashboard displaying current CPU
+          utilization and ____________ in 2 Grafana iframes.
+        </h2>
+        <img src={first} alt='First Image on the right' class='feature-img'></img>
       </div>
       <div class='feature-row'>
-        <img src='#' alt='Second Image on the Left'></img>
-        <h2>Second Feature Goes Here</h2>
+        <img src={second} alt='Second Image on the Left' class='feature-img'></img>
+        <h2 class='feature-desc'>
+          🗃️ The lower section of DRX's dashboard is shared by 2 panels. The
+          left section houses interactive Container Cards that allow for dynamic
+          searches, filtering, and selection where containers can be run,
+          stopped, viewed, or pruned.
+        </h2>
       </div>
       <div class='feature-row'>
-        <h2>Third Feature Goes Here</h2>
-        <img src='#' alt='Third Image on the right'></img>
+        <h2 class='feature-desc'>
+          👑 The crown jewel of DRX is Optimization. Suggestions are prescribed
+          in the bottom right panel. Once a container is selected, DRX
+          automatically assesses the health of the containerized application and
+          suggests 3 levels of optimization displayed in the accordion along
+          with a comparative analysis of historical data.
+        </h2>
+        <img src={third} alt='Third Image on the right' class='feature-img'></img>
       </div>
     </div>
   );

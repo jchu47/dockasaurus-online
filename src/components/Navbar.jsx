@@ -33,9 +33,9 @@ export default function WithSubnavigation() {
         minH={'60px'}
         py={{ base: 2 }}
         px={{ base: 4 }}
-        borderBottom={1}
+        borderBottom={4}
         borderStyle={'solid'}
-        borderColor={useColorModeValue('gray.200', 'gray.900')}
+        borderColor={useColorModeValue('gray.300', 'gray.900')}
         align={'center'}>
         <Flex
           flex={{ base: 1, md: 'auto' }}
@@ -54,8 +54,10 @@ export default function WithSubnavigation() {
           <Text
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
+            fontSize={'larger'}
+            fontWeight={'bold'}
             color={useColorModeValue('gray.800', 'white')}>
-            Logo Here
+            DRX
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -70,7 +72,7 @@ export default function WithSubnavigation() {
           spacing={6}>
           <Button
             as={'a'}
-            fontSize={'sm'}
+            fontSize={'lg'}
             fontWeight={400}
             variant={'link'}
             href={'#'}>
@@ -101,7 +103,7 @@ const DesktopNav = () => {
                 as='a'
                 p={2}
                 href={navItem.href ?? '#'}
-                fontSize={'sm'}
+                fontSize={'lg'}
                 fontWeight={500}
                 color={linkColor}
                 _hover={{
@@ -152,7 +154,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
             fontWeight={500}>
             {label}
           </Text>
-          <Text fontSize={'sm'}>{subLabel}</Text>
+          <Text fontSize={'lg'}>{subLabel}</Text>
         </Box>
         <Flex
           transition={'all .3s ease'}
@@ -253,24 +255,24 @@ const NAV_ITEMS: Array<NavItem> = [
     children: [
       {
         label: 'Justin Chu',
-        subLabel: 'Add linkedin Links here',
-        href: '#',
+        subLabel: 'Software Engineer',
+        href: 'https://www.linkedin.com/in/justin-chu-10a70a205/',
       },
       {
         label: 'Bryan Choe',
-        subLabel: 'Add linkedin Links here',
-        href: '#',
+        subLabel: 'Full-Stack Engineer',
+        href: 'https://www.linkedin.com/in/bryan-choe/',
       },
       {
         label: 'Christian Robinson',
-        subLabel: 'Add linkedin Links here',
-        href: '#',
+        subLabel: 'Front-end Developer',
+        href: 'https://www.linkedin.com/in/christian-daniel-robinson/',
       },
       {
         label: 'Nate Doucette',
-        subLabel: 'Add linkedin Links here',
-        href: '#',
+        subLabel: 'Software Engineer',
+        href: 'https://www.linkedin.com/in/nate-doucette-473a04141/',
       },
     ],
-  }
+  },
 ];

@@ -1,19 +1,61 @@
 import React from 'react';
+import justin from '../assets/justin-selfie.jpeg';
+import bryan from '../assets/bryan-selfie.png';
+import christian from '../assets/christian-selfie.jpeg';
+import nate from '../assets/nate-selfie.jpeg';
+import github from '../assets/github-logo.png';
+import linkedin from '../assets/linkedin.png';
 
 function Footer() {
   return (
-    <div>
-      <h1>Meet the Team</h1>
+    <div id='footer'>
+      <h1 id='meet'>Meet the Team</h1>
       <br></br>
       <div>
         <div class='team-row'>
           <div class='headshot'>
             <h2>Justin Chu</h2>
-            <img src='#' alt='Justin Selfie'></img>
+            <img src={justin} alt='Justin Selfie' class='selfie'></img>
+            <div class='icon-row'>
+              <a
+                href='https://github.com/jchu47'
+                target='_blank'
+                rel='noreferrer'>
+                <img src={github} class='github' alt='github'></img>
+              </a>
+              <a
+                href='https://www.linkedin.com/in/justin-chu-10a70a205/'
+                target='_blank'
+                rel='noreferrer'>
+                <img
+                  src={linkedin}
+                  href='#'
+                  class='linkedin'
+                  alt='linkedin'></img>
+              </a>
+            </div>
           </div>
           <div class='headshot'>
             <h2>Bryan Choe</h2>
-            <img src='#' alt='Bryan Selfie'></img>
+            <img src={bryan} alt='Bryan Selfie' class='selfie'></img>
+            <div class='icon-row'>
+              <a
+                href='https://github.com/your-github-username'
+                target='_blank'
+                rel='noreferrer'>
+                <img src={github} class='github' alt='github'></img>
+              </a>
+              <a
+                href='https://www.linkedin.com/in/your-linkedin-username'
+                target='_blank'
+                rel='noreferrer'>
+                <img
+                  src={linkedin}
+                  href='#'
+                  class='linkedin'
+                  alt='linkedin'></img>
+              </a>
+            </div>
           </div>
         </div>
         <br></br>
@@ -21,11 +63,47 @@ function Footer() {
         <div class='team-row'>
           <div class='headshot'>
             <h2>Christian Robinson</h2>
-            <img src='#' alt='Christian Selfie'></img>
+            <img src={christian} alt='Christian Selfie' class='selfie'></img>
+            <div class='icon-row'>
+              <a
+                href='https://github.com/your-github-username'
+                target='_blank'
+                rel='noreferrer'>
+                <img src={github} class='github' alt='github'></img>
+              </a>
+              <a
+                href='https://www.linkedin.com/in/your-linkedin-username'
+                target='_blank'
+                rel='noreferrer'>
+                <img
+                  src={linkedin}
+                  href='#'
+                  class='linkedin'
+                  alt='linkedin'></img>
+              </a>
+            </div>
           </div>
           <div class='headshot'>
             <h2>Nate Doucette</h2>
-            <img src='#' alt='Nate Selfie'></img>
+            <img src={nate} alt='Nate Selfie' class='selfie'></img>
+            <div class='icon-row'>
+              <a
+                href='https://github.com/your-github-username'
+                target='_blank'
+                rel='noreferrer'>
+                <img src={github} class='github' alt='github'></img>
+              </a>
+              <a
+                href='https://www.linkedin.com/in/your-linkedin-username'
+                target='_blank'
+                rel='noreferrer'>
+                <img
+                  src={linkedin}
+                  href='#'
+                  class='linkedin'
+                  alt='linkedin'></img>
+              </a>
+            </div>
           </div>
         </div>
       </div>
