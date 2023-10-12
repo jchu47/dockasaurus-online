@@ -40,13 +40,13 @@ function Footer() {
             <img src={bryan} alt='Bryan Selfie' class='selfie'></img>
             <div class='icon-row'>
               <a
-                href='https://github.com/your-github-username'
+                href='https://github.com/Choebryan'
                 target='_blank'
                 rel='noreferrer'>
                 <img src={github} class='github' alt='github'></img>
               </a>
               <a
-                href='https://www.linkedin.com/in/your-linkedin-username'
+                href='https://www.linkedin.com/in/bryan-choe/'
                 target='_blank'
                 rel='noreferrer'>
                 <img
@@ -66,13 +66,13 @@ function Footer() {
             <img src={christian} alt='Christian Selfie' class='selfie'></img>
             <div class='icon-row'>
               <a
-                href='https://github.com/your-github-username'
+                href='https://github.com/hommesweethomme'
                 target='_blank'
                 rel='noreferrer'>
                 <img src={github} class='github' alt='github'></img>
               </a>
               <a
-                href='https://www.linkedin.com/in/your-linkedin-username'
+                href='https://www.linkedin.com/in/christian-daniel-robinson/'
                 target='_blank'
                 rel='noreferrer'>
                 <img
@@ -88,13 +88,13 @@ function Footer() {
             <img src={nate} alt='Nate Selfie' class='selfie'></img>
             <div class='icon-row'>
               <a
-                href='https://github.com/your-github-username'
+                href='https://github.com/Zampare'
                 target='_blank'
                 rel='noreferrer'>
                 <img src={github} class='github' alt='github'></img>
               </a>
               <a
-                href='https://www.linkedin.com/in/your-linkedin-username'
+                href='https://www.linkedin.com/in/nate-doucette-473a04141/'
                 target='_blank'
                 rel='noreferrer'>
                 <img

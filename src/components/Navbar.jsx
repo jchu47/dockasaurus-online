@@ -241,7 +241,7 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: 'Github',
         subLabel: 'Official Documentation',
-        href: '#',
+        href: 'https://github.com/oslabs-beta/Dockasaurus-RX',
       },
       {
         label: 'Dockasaurus Medium Article',
@@ -255,7 +255,7 @@ const NAV_ITEMS: Array<NavItem> = [
     children: [
       {
         label: 'Justin Chu',
-        subLabel: 'Software Engineer',
+        subLabel: 'Full-Stack Engineer',
         href: 'https://www.linkedin.com/in/justin-chu-10a70a205/',
       },
       {
@@ -265,12 +265,12 @@ const NAV_ITEMS: Array<NavItem> = [
       },
       {
         label: 'Christian Robinson',
-        subLabel: 'Front-end Developer',
+        subLabel: 'Full-Stack Engineer',
         href: 'https://www.linkedin.com/in/christian-daniel-robinson/',
       },
       {
         label: 'Nate Doucette',
-        subLabel: 'Software Engineer',
+        subLabel: 'Full-Stack Engineer',
         href: 'https://www.linkedin.com/in/nate-doucette-473a04141/',
       },
     ],

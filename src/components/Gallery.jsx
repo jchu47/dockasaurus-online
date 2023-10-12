@@ -1,7 +1,7 @@
 import React from 'react';
-import first from '../assets/first-feature.jpeg';
-import second from '../assets/second-feature.jpeg';
-import third from '../assets/third-feature.jpeg';
+import first from '../assets/first-feature.gif';
+import second from '../assets/second-feature.gif';
+import third from '../assets/third-feature.gif';
 
 function Gallery() {
   return (
@@ -10,7 +10,7 @@ function Gallery() {
       <div class='feature-row'>
         <h2 class='feature-desc'>
           📉 Chart Visualizations sit atop the dashboard displaying current CPU
-          utilization and ____________ in 2 Grafana iframes.
+          utilization and Memory utilization in 2 Grafana iframes.
         </h2>
         <img src={first} alt='First Image on the right' class='feature-img'></img>
       </div>

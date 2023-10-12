@@ -15,7 +15,7 @@ function Intro() {
         major trick up its sleeve beyond mere monitoring and visualization. It's
         more than a pulse check. To keep your applications happy and healthy,
         Dockasaurus RX retains important vitals of all your containers for
-        ______ allowing comparisons to be drawn regarding the well-being of
+        7 days allowing comparisons to be drawn regarding the well-being of
         concurrent container workloads over a designated period.
       </h2>
       <a href='#'>Learn More/ Link to Medium</a>

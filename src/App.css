@@ -1,27 +1,36 @@
 .App {
   text-align: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #303031,
+    #3d3e3f,
+    #4b4d4e,
+    #5a5d5c,
+    #6b6c6a
+  );
+  color: white;
 }
 
-
-
 #header {
-  font-size: 40px;
+  font-size: 120%;
   font-weight: bold;
   align-self: center;
-  text-shadow: 3px 4px lightgray;
+  text-shadow: 1px 1px lightgray;
+  padding-left: 5%;
 }
 
 #logo {
   height: 20%;
   width: 20%;
+  border-radius: 10px;
 }
 
 #spotlight {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-content:center;
+  align-content: center;
 }
 #intro {
   padding-top: 100px;
@@ -33,13 +42,13 @@
   padding: 10%;
   padding-left: 15%;
   padding-right: 15%;
-  font-size:larger;
+  font-size: larger;
 }
 
 #features {
   font-size: 30px;
   font-weight: bolder;
-  text-shadow: 3px 4px lightgray;
+  text-shadow: 1px 1px lightgray;
 }
 
 .gallery {
@@ -52,19 +61,25 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #ccc;
   padding: 20px;
   margin: 10px 0;
   height: 300px;
+  margin-top: 15%;
 }
 
 .feature-img {
   width: 100%;
   height: 100%;
+  border-radius: 20px;
 }
 
 .feature-desc {
   width: 70%;
+  box-shadow: 0px 5px 5px #242324;
+  /* border: 1px solid gray; */
+  height: 100%;
+  align-content: center;
+  border-radius: 20px;
 }
 .column {
   display: flex;
@@ -82,7 +97,6 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-
 }
 
 #footer {
@@ -95,7 +109,7 @@
   padding-bottom: 75px;
   font-size: 30px;
   font-weight: bolder;
-  text-shadow: 3px 4px lightgray;
+  text-shadow: 1px 1px lightgray;
 }
 
 .selfie {
@@ -104,25 +118,25 @@
   width: 300px;
   border-radius: 30px;
   margin-left: 15%;
+  border: 1px solid silver;
 }
 
 .icon-row {
   padding-top: 30px;
-  display:flex;
+  display: flex;
   flex-direction: row;
   align-content: center;
-  justify-content:  space-evenly;
-
+  justify-content: space-evenly;
 }
 
 .github {
-  height: 45%;
-  width: 15%;
-  min-height: 50px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
 .linkedin {
-  height: 45%;
-  width: 15%;
-  min-height: 50px;
+  height: 40px;
+  border-radius: 10px;
 }
